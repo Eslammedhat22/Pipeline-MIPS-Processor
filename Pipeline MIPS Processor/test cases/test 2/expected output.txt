@@ -1,0 +1,12 @@
+initial 
+all registers=0x00000000
+
+excpected output
+$s0=0x00000005 => index[16]
+$s1=0x00000007 => index[17]
+$s2=0x00000023 => index[18]
+$a0=0x00000005 => index[4]
+$a1=0x00000000 => index[5]
+$v0=0x00000023 => index[2]
+$ra=0x00000014 => index[31]
+and other registers=0x00000000

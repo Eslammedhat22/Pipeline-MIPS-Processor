@@ -1,0 +1,2 @@
+this tast case for testing data hazard due to add after lw "control hazard" 
+and testing forwading from memory to alu 

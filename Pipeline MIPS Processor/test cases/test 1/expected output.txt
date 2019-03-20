@@ -1,0 +1,27 @@
+initial 
+$t0=0x00000005  => index[8]
+$t1=0x00000010  => index[9]
+and other registers =0x00000000 
+
+
+expected output
+$t0=0x00000005  => index[8]
+$t1=0x00000010  => index[9]
+$t2=0x00000015  => index[10]
+$t3=0x0000000a  => index[11]
+$t4=0x00000000  => index[12]
+$t5=0x00000005  => index[13]
+$t6=0x00ff0000  => index[14]
+$t7=0xffffffea  => index[15]
+$t8=0x00000015  => index[24]
+$t9=0x000000ff  => index[25]
+$s0=0x00000140  => index[16]
+$s1=0x00000001  => index[17]
+$s2=0x00000000  => index[18]
+$s3=0x00000002  => index[19]
+$s4=0xfffffff5  => index[20]
+$s5=0x00000005  => index[21]
+$s6=0xffffffff  => index[22]
+and other registers =0x00000000
+
+data_memory[6]=0x00000005

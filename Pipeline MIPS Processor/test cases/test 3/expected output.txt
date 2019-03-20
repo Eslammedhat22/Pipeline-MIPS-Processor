@@ -1,0 +1,12 @@
+initial 
+all registers =0x00000000
+data memory [0]=data memory [1]=0x00000000
+data memory [2]=0x00000005
+
+excected output 
+
+no change in data memory
+ 
+$t0=0x00000005 => index[8]
+$t2=0x0000000a => index[10]
+and other registers =0x00000000

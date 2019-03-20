@@ -1,0 +1,1 @@
+this test case to testing hazard due to beq after lw instruction "control hazard"  

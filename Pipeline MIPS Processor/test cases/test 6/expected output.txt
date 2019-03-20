@@ -1,0 +1,11 @@
+initial 
+all registers=0x00000000
+
+excpected output
+$t1=0xFFFFFFFF => index[9]
+$t2=0x00000001 => index[10]
+$t3=0x00000003 => index[11]
+$t4=0x00000004 => index[12]
+$t5=0xffffffff => index[13]
+
+and other registers=0x00000000

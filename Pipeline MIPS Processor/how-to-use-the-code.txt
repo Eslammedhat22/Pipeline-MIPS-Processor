@@ -1,0 +1,3 @@
+the processor reads from 3 text files “inst_mem.txt” for the instruction memory. “data_mem.txt” for the data memory. “reg_f.txt” for the register file.
+-	you must change the files path in the code depending on their path on your pc.
+-	after filling the files with the binary values and running simulation the results will be displayed in the memory list in modelsim simulator with the last values of both memories and the register file.

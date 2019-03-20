@@ -1,0 +1,22 @@
+initial 
+$s3=0x0000000a => index[19]
+and other registers=0x00000000
+data_memory[0]=0x00000028
+
+excpected output
+$s1=0x00000028 => index[17]
+$s2=0x0000000a => index[18]
+$s3=0x0000000a => index[19]
+$s4=0x00000000 => index[20]
+$s5=0x0000000a => index[21]
+$s6=0x0000000a => index[22]
+
+and other registers=0x00000000
+
+data_memory[0] =0x00000028
+data_memory[10]=0x0000000a
+
+
+
+ 
+

@@ -1,0 +1,7 @@
+// all hazards
+lw $s1,0($s2)
+sw $s3,0($s1)
+add $s2,$zero,$s3
+sub $s4,$s2,$s2
+or $s5,$s4,$s2
+andi $s6,$s2,11

@@ -1,0 +1,23 @@
+the GUI immediately assembles the instructions into a machine code that is displayed on the right also stores it in a text file named ”inst_mem.txt”
+-       double click on assembler.exe
+-	you must put it in the same directory as the inst_mem you are going to use.
+-	if you want to use a label for beq,bne,j,jal you need to put the instruction in the same line of the label. don’t leave the label line empty it won’t work,
+        if the label in the end of assembly code you must put in sll $zero,$zero,0 in the same line of label  for example (Exit:  => false , Exit: sll $zero,$zero,0  =>true) 
+-	also don’t leave empty lines
+-	there’s a debugging button (OFF by default) click on it to turn it ON to see the instruction fields in decimal numbers
+-	don’t use nop as it isn’t supported instead use sll $zero,$zero,0
+
+
+test cases are provided inside the gui report
+
+
+/////////////////new feature in the gui//////////////////////
+the ability to see the output
+1)the verilog file should be named cpu.v and be in the same path as assembler.exe
+2)close modelsim
+3)all other text files "inst_mem.txt" "data_mem.txt" "reg_f.txt" should be in the same path as assembler.exe
+4)put your assembly instructions and click run  it'll show the results.
+5)to edit the code again click edit
+6)it uses the initial values stored in "data_mem.txt" "reg_f.txt"
+
+take care : the gui set simulation time =300ns if you want to run instructions take more than 300ns , you should run and see the result in modelsim simulation

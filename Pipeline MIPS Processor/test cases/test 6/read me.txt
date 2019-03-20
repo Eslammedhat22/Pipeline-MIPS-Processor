@@ -1,0 +1,1 @@
+this test case to testing data hazard and forwarding control hazard with beq instruction  

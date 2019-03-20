@@ -1,0 +1,4 @@
+this test case for testing beq & j & jal & jr instructions 
+"without any hazard case" 
+ 
+hint : u must increase simulation time in this test case  for example 250 ns at least 

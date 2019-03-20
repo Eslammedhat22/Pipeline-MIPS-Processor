@@ -1,0 +1,11 @@
+nor $t2,$t0,$t1
+sub $t3,$t1,$t0
+bne $t1,$t0,L
+sll $zero,$zero,0
+sll $zero,$zero,0
+L: jal M
+sll $zero,$zero,0
+M: or $t4,$t0,$zero
+j N
+sll $zero,$zero,0
+N: add $t5,$t0,$t1

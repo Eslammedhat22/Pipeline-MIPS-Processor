@@ -1,0 +1,2 @@
+this test case for testing instructions : 
+add addi and andi lui nor or ori sll slt slti srl sub sw lw sra "without any hazard case"  

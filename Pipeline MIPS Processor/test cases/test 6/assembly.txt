@@ -1,0 +1,8 @@
+addi $t1,$zero,-11
+addi $t1,$t1,10
+slti $t2,$t1,0
+beq $t2,$zero,L  //not taken
+addi $t3,$zero,3
+addi $t4,$t3,1
+L: add $t5,$t2,$t2
+sra $t5,$t1,4

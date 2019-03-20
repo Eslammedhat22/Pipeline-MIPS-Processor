@@ -1,0 +1,27 @@
+/* int mulpositive(int x,int y)
+{
+  Return x*y;
+}
+int main ()
+{
+   int a=5;
+   Int b=7;
+   Int c;
+   c=mulpositive(a,b); 
+} */
+
+
+Main:               addi $s0,$zero,5
+                        addi $s1,$zero,7
+                        add $a0,$s0,$zero
+                        add $a1,$s1,$zero
+                        jal MulPositive
+                        add $s2,$v0,$zero
+                        j Exit
+MulPositive:    add $v0,$zero,$zero
+L:                     beq $a1,$zero,FunExit
+                        add $v0,$v0,$a0
+                        addi $a1,$a1,-1
+                        j L
+FunExit:          jr $ra
+Exit: sll $zero,$zero,0

@@ -1,0 +1,6 @@
+the processor reads from 3 text files “inst_mem.txt” for the instruction memory. “data_mem.txt” for the data memory. “reg_f.txt” for the register file.
+-	you must change the files path in the code depending on their path on your pc.
+-	just change the path in $memreadb() in each inst_mem module, data_mem module and reg_f module to the path of each test case contents “inst_mem.txt , data_mem.txt and reg_f.txt” .
+-	after running simulation the results will be displayed in the memory list in modelsim simulator with the last values of both memories and the register file.
+
+also there's a feature in the GUI to show the result in it. it's explained in "how to use the gui.txt"

@@ -1,0 +1,16 @@
+add $t2,$t0,$t1
+addi $t3,$t0,5
+and $t4,$t0,$t1
+andi $t5,$t0,15
+lui $t6,255
+nor $t7,$t0,$t1
+or $t8,$t0,$t1
+ori $t9,$t0,255
+sll $s0,$t0,6
+slt $s1,$t0,$t1
+slti $s2,$t0,3
+srl $s3,$t0,1
+sub $s4,$t0,$t1
+sw $t0,8($t1)
+lw $s5,8($t1)
+sra $s6,$t7,15
